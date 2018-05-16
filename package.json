@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "hot-server": "^0.0.16"
+  },
+  "scripts":{
+    "start": "cd public && hot-server"
   }
 }

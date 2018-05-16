@@ -1,11 +1,20 @@
 <html>
 <head>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <title>Asteroids </title>
-    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-    <script language="javascript" type="text/javascript" src="sketch.js"></script>
-    <style> body {padding: 0; margin: 0;} </style>
+  <title>Lost Cities</title>
+  <style> body {padding: 0; margin: 0;} </style>
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+  <div id='inputField'>
+    <p>Welcome to Lost Cities</p>
+    <input class = 'textEntry' autocorrect="off" autocapitalize="off" type="text" id="room" name="room" placeholder=" Enter Room Id"> </input>
+    <div>
+      <button class = 'btn' id='Create Room'>Create Room</button>
+      <button class = 'btn' id='Join Room'>Join Room</button>
+    </div>
+  </div>
 </body>
+<script language="javascript" type="text/javascript" src="sketch.js"></script>
+<script language="javascript" type="text/javascript" src="card.js"></script>
 </html>

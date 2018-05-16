@@ -1,0 +1,32 @@
+#inputFIeld{
+  margin:auto;
+  width:200px;
+  margin-top: 50px;
+}
+.textEntry{
+  width:198px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding:3px;
+  margin-bottom: 12px;
+}
+.btn{ 
+  width:97px;
+  padding:3px;
+  color: #fff;
+  border: 1px solid #ddd;
+  transition-duration: 0.5s;
+  background-color: #000;
+}
+.btn:hover{
+  background-color: #888;
+}
+p{
+  text-align: center;
+  color: #eff;
+}
+html{
+  background-color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
